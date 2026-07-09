@@ -5,6 +5,8 @@
  * @description tema do mizuki
  */
 
+@import url('https://raw.githubusercontent.com/lhandhio/temin-bonitin/refs/heads/main/temin_bonitin.theme.css');
+
 :root{
      --background: url('https://i.pinimg.com/736x/ce/69/eb/ce69eb7408e80aaca7090f113129e92f.jpg');
      --activetext-colour: white;
