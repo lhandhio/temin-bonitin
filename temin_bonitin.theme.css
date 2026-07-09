@@ -1,52 +1,22 @@
 /**
- * @name Temin Bonitin
- * @author Seu Nome
- * @version 1.0.0
- * @description Feito do zero na raça, sem bases prontas!
-*/
+ * @name temin_bonitin
+ * @author lhandhio
+ * @version 1
+ * @description tema do mizuki
+ */
 
-/* ==========================================================================
-   1. APAGÃO AMOLED (Forçando fundo preto em todas as camadas principais)
-   ========================================================================== */
-.theme-dark,
-:root,
-.appMount_ea7e65, 
-.app_a01fb1, 
-.bg_d4b115, 
-.container_a2f5dd, 
-.chat_a7d72e, 
-.sidebar_a51874, 
-.wrapper_a7e323,
-.panels_a4d4d9,
-.container_cedf44,
-.members_cbd771,
-.membersWrap_cbd771,
-.nowPlayingColumn_c2739c {
-  background: #000000 !important;
-  background-color: #000000 !important;
-  background-image: none !important;
-}
+:root{
+     --background: url('https://i.pinimg.com/736x/ce/69/eb/ce69eb7408e80aaca7090f113129e92f.jpg');
+     --activetext-colour: white;
+ 
+     --primary1-colour: rgb(0, 229, 255);       /* Verde-ciano principal (brilhante) */
+     --primary2-colour: rgba(0, 179, 204, 0.5); /* Tom médio com 50% de transparência */
+     --primary3-colour: rgba(0, 242, 255, 0.6); /* Tom mais neon com 60% de transparência */
+     --primary4-colour: rgba(0, 128, 153, 0.4); /* Tom mais escuro com 40% de transparência */
+ 
+     --secondary1-colour: rgba(50,50,50,0.3);
+     --secondary2-colour: rgba(100,100,100,0.5);
+     --secondary3-colour: rgba(0,0,0,0.6);
+     --secondary4-colour: rgba(0,0,0,0.3);
 
-/* ==========================================================================
-   2. DETALHES EM ROXO (Botões, links e destaques)
-   ========================================================================== */
-:root {
-  --brand-experiment: #653b99 !important;
-  --brand-experiment-560: #4f1893 !important;
-  --brand-experiment-hover: #4f1893 !important;
-  --brand-experiment-active: #3a106e !important;
-  --text-link: #8a4fff !important; /* Roxo um pouco mais claro pro texto destacar no preto */
-}
-
-/* ==========================================================================
-   3. O RETORNO DO RAMATTRA (Botão Home Personalizado)
-   ========================================================================== */
-/* Mira direto no container do botão Início */
-[class*="childWrapper_"] {
-  background: url(https://cdn.discordpedia.org/uploads/sileprinstudios-ramattra.gif) center/cover no-repeat !important;
-}
-
-/* Some com o ícone branco original do Discord de dentro dele */
-[class*="childWrapper_"] svg {
-  display: none !important;
 }
