@@ -1,0 +1,52 @@
+/**
+ * @name Temin Bonitin
+ * @author Seu Nome
+ * @version 1.0.0
+ * @description Feito do zero na raça, sem bases prontas!
+*/
+
+/* ==========================================================================
+   1. APAGÃO AMOLED (Forçando fundo preto em todas as camadas principais)
+   ========================================================================== */
+.theme-dark,
+:root,
+.appMount_ea7e65, 
+.app_a01fb1, 
+.bg_d4b115, 
+.container_a2f5dd, 
+.chat_a7d72e, 
+.sidebar_a51874, 
+.wrapper_a7e323,
+.panels_a4d4d9,
+.container_cedf44,
+.members_cbd771,
+.membersWrap_cbd771,
+.nowPlayingColumn_c2739c {
+  background: #000000 !important;
+  background-color: #000000 !important;
+  background-image: none !important;
+}
+
+/* ==========================================================================
+   2. DETALHES EM ROXO (Botões, links e destaques)
+   ========================================================================== */
+:root {
+  --brand-experiment: #653b99 !important;
+  --brand-experiment-560: #4f1893 !important;
+  --brand-experiment-hover: #4f1893 !important;
+  --brand-experiment-active: #3a106e !important;
+  --text-link: #8a4fff !important; /* Roxo um pouco mais claro pro texto destacar no preto */
+}
+
+/* ==========================================================================
+   3. O RETORNO DO RAMATTRA (Botão Home Personalizado)
+   ========================================================================== */
+/* Mira direto no container do botão Início */
+[class*="childWrapper_"] {
+  background: url(https://cdn.discordpedia.org/uploads/sileprinstudios-ramattra.gif) center/cover no-repeat !important;
+}
+
+/* Some com o ícone branco original do Discord de dentro dele */
+[class*="childWrapper_"] svg {
+  display: none !important;
+}
